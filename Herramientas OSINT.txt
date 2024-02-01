@@ -1,0 +1,157 @@
+Herramientas OSINT
+
+https://blog.elhacker.net/2021/03/mejores-buscadores-avanzados-alternativos-en-internet.html
+
+Resumen enlaces buscadores alternativos:
+
+Shodan
+FOFA 
+Censys
+Oshadan
+Zoomeye
+GreyNoise Visualizer
+ONYPHE
+Hunter
+Wigle
+BinaryEdge
+GhostProject
+Publicwww
+Hunter.io
+Haveibeenpwned
+OSINT Framework
+
+Shodan
+Shodan tiene como objetivo el ubicar a todo tipo de dispositivos que estén conectados a Internet, es decir, desde routers, APs, dispositivos IoT hasta cámaras de seguridad
+El buscador más utilizado, conocido y completo es Shodan. Esta herramienta es utilizada por investigadores de seguridad, e incluso aficionados que se empiezan a introducir en el mundo del hacking y la seguridad informática. Esta web es capaz de recopilar una grandísima cantidad de información sobre dispositivos del Internet de las Cosas (IoT), e incluso de servicios expuestos a Internet, por lo que su base de datos indexada en inmensa, pudiendo encontrar todo tipo de dispositivos en ella.
+
+Nos aparecerán los resultados de esta manera. En el lateral izquierdo podemos ver un ranking de los países que más organizaciones tienen, los cuales tienen servidores Apache. Otras listas que podemos ver son:
+
+Top de servicios utilizados
+Top de organizaciones
+Top de sistemas operativos utilizados
+Top de productos
+Uso de filtros de búsqueda
+Los filtros de búsqueda nos ayudan muchísimo a tener un control mayor de lo que buscamos y de lo que podremos obtener. Se puede filtrar por país, dirección IP, número de puerto, nombre de host y más. Te mostramos unos casos:
+
+Búsqueda por país. Por ejemplo, España
+
+country:es
+Búsqueda por ciudad. Por ejemplo, Madrid
+
+city:madrid
+Búsqueda por sistema operativo. Por ejemplo, Windows
+
+os:windows
+Búsqueda por número de puerto. Por ejemplo, 25
+
+port:25
+
+FOFA
+Otro buscador bastante popular es FOFA. Esta plataforma gratuita nos permitirá buscar equipos y dispositivos conectados a Internet, podremos filtrar por una gran cantidad de opciones, como el servicio, ubicación, año, puertos, protocolos, ubicación, sistema operativo y mucho más. Un aspecto muy interesante es que está diseñado para usuarios algo más avanzados que Shodan, y podremos subir nuestros propios scripts para utilizar la plataforma FOFA y buscar específicamente lo que nosotros queramos.
+
+Otra característica bastante interesante es que nos proporciona su propia API para realizar nosotros mismos los desarrollos que queramos convenientes, y de esta forma, aumentar aún más las posibilidades de la plataforma haciendo uso de la misma.
+
+Censys
+Otro buscador online muy popular es Censys. Esta herramienta es muy similar a las dos anteriores, nos permitirá conseguir todo tipo de información sobre equipos, servidores, dispositivos IoT conectados a Internet etc. Podremos saber la dirección IP pública, el servicio que está funcionando por detrás, la geolocalización del servicio y mucho más. Esta herramienta es igual de útil como peligrosa, según quién la utilice.
+
+Además, también tiene API como la anterior, por lo que se puede utilizar dentro de otras aplicaciones para aumentar sus funcionalidades o automatizar las diferentes tareas.
+
+Oshadan
+Aunque parece que tiene una cierta relación con Shodan, Oshadan realmente es otra plataforma completamente diferente, aunque su funcionamiento es muy similar. Esta plataforma es capaz de indexar equipos y dispositivos conectados a la red, permitiéndonos localizar ciertos puertos, protocolos, realizar análisis geográfico, buscar información por dispositivos, monitorizar ciertos servicios e incluso habilitar alertas de seguridad.
+
+La parte negativa es que requiere registro sí o sí, las anteriores herramientas siempre proporcionaban ciertas funcionalidades como invitado, aunque si nos registramos desbloqueamos todo el potencial.
+
+Zoomeye
+Zoomeye es un motor de búsqueda bastante completo que nos permitirá encontrar hosts y también webs que cumplan una serie de requisitos. Si, por ejemplo, queremos buscar servicios en Internet con la cadena «Orange», Zoomeye es capaz de proporcionar un listado de direcciones IP públicas, y las relacionará con un país en concreto donde aparezca dicha cadena.
+
+Otras características de esta herramienta es que también es capaz de buscar las direcciones IP públicas que tengan habilitado y expuesto a Internet un determinado servicio, como, por ejemplo, un servidor web Apache, un servidor FTP vsftpd e incluso proftpd. No solo es capaz de buscar cadenas y servicios, sino también dispositivos IoT que están permanentemente conectados.
+
+Por ejemplo, algunos operadores en España como Jazztel, hacen uso de servidores Telnet en sus routers y otros dispositivos de gestión. Zoomeye nos mostrará toda la información sobre ellos (routers, ordenadores y cualquier dispositivo conectado a Internet que haya escaneado). En la parte lateral izquierda podremos ver el puerto que predomina, y es que ha encontrado más de 800 host que tienen este puerto 23 abierto y accesible, tal y como podéis ver, aparece el típico disclaimer de acceso.
+
+GreyNoise Visualizer
+Esta herramienta GreyNoise Visualizer también es gratuita, y nos permitirá tener una visión de las principales amenazas que tenemos actualmente en Internet. Podremos ver diferentes eventos que están ocurriendo en Internet, organizados perfectamente por categorías (gusanos, actividad maliciosa, motor de búsqueda etc), una opción muy interesante es que podremos filtrar por la «intención» que tiene ese tráfico, es decir, podremos ver si tiene intenciones maliciosas, benignas o desconocidas.
+
+Otras características de este buscador online son que nos permitirá realizar búsquedas por IP pública, y saber si una determinada IP está realizando algún tipo de actividad sospechosa, ya sea porque forma parte de una botnet o porque son los cibercriminales en cuestión. Con GreyNoise también podremos ver a qué AS pertenece una IP en concreto, la organización detrás de esa IP, e incluso detectar el sistema operativo si es posible.
+
+ONYPHE
+Este buscador de datos ONYPHE es open-source y está centrado en ciberinteligencia. Nos permitirá rastrear una gran cantidad de fuentes de información disponibles en Internet, y recopilar toda esta información, para posteriormente correlacionar la información recogida. Esta herramienta incorpora una API para usarlo de manera integrada en nuestras aplicaciones, por lo que está diseñada para usuarios avanzados e incluso empresas. Tal y como podemos ver en su web oficial, esta herramienta es un SIEM, pero en Internet.
+
+Hunter
+Si estás buscando correos electrónicos de diferentes empleados de una determinada empresa o página web, esta herramienta Hunter te encantará. Esta web es realmente fácil de utilizar, simplemente tendremos que poner el dominio de una empresa, y será capaz de proporcionarnos un listado con todos los emails que ha encontrado a través de Internet en fuentes de información públicas.
+
+En caso de contactar con una empresa, con tan solo poner su dominio nos saldrá este listado. Es posible que determinadas direcciones de email ya no estén disponibles, pero puedes probar a enviar un correo electrónico para saber si están o no activas. Lo que sí tenemos que tener en cuenta es que necesitaremos registro para saber las direcciones de correo electrónico. Para un usuario normal el servicio es totalmente gratuito, pero si por ejemplo queremos realizar más de 100 solicitudes tendremos que pagar la suscripción.
+
+Wigle: Las redes Wi-Fi geolocalizadas
+Wigle es una herramienta muy útil para geolocalizar una determinada red inalámbrica Wi-Fi. Esta herramienta nos va a permitir saber dónde se encuentra un determinado SSID, e incluso también podremos comprobar dónde tenemos un BSSID (MAC inalámbrica). Esta herramienta es totalmente gratuita, y también se encuentra disponible para dispositivos Android en forma de aplicación. Podremos ver un mapa de nuestra ciudad con todos los puntos de acceso Wi-Fi registrados, y buscar dónde se encuentran exactamente, e incluso ver la densidad de las redes inalámbricas.
+
+BinaryEdge
+Esta herramienta BinaryEdge es gratuita para hasta 100 solicitudes, si necesitamos realizar más solicitudes necesitaremos pagar una suscripción. Esta herramienta escanea todas las direcciones IP públicas, creando una gran base de datos con todos los hosts y puertos que están expuestos en Internet, para posteriormente ver completos informes con toda la información. La información que podremos ver con BinaryEdge son los puertos y servicios activos, posibles vulnerabilidades, escritorios remotos accesibles, certificados SSL inválidos, recursos compartidos de red mal configurados, e incluso bases de datos.
+
+GhostProject
+GhostProject que es una herramienta similar a la popular have i been pwned?, ideal para comprobar si nuestras credenciales se han filtrado a Internet debido a fallos de seguridad de los diferentes servicios. Hoy en día es muy importante mantener nuestras credenciales a salvo, si han hackeado un servicio, es posible que nos hayamos visto afectados. Gracias a estas dos herramientas podremos comprobar si nuestro email se ha visto comprometido. Mozilla Firefox ha integrado recientemente en su navegador una extensión para consultar la base de datos de have i been pwned y avisarnos si nuestro correo electrónico aparece en las filtraciones de datos.
+
+Publicwww
+Publicwww es una web que mediante un buscador nos permite buscar código HTML, JS y CSS en cualquier página web. Realmente su uso es muy sencillo, pero puede llegar a ser muy útil. El funcionamiento de Publicwww es muy sencillo. Una vez entramos en su sitio web, debemos introducir en el cuadro de búsqueda, el código que queremos averiguar si está en algún sitio web. Una vez introducido debemos clicar a la derecha en la barra donde hemos introducido el código, el botón “Search”, y nos mostrara los resultados encontrados.
+
+Si queremos saber que sintaxis podemos introducir en el cuadro de búsqueda, debemos clicar debajo, dónde pone en color azul “query syntax: RegEx, ccTLDs, etc.” y se nos abrirá una nueva página, con las diferentes maneras en las que podemos buscar el código. Os adjuntamos unas capturas donde podéis ver ejemplos.
+
+Hunter.io
+Hunter.io es una sitio web donde disponemos de un buscador donde podemos introducir el nombre de una empresa, y nos mostrara todas las direcciones de correo electrónico que se han filtrado sobre esa empresa. Esta web puede ser útil si necesitamos encontrar alguna dirección de email. El funcionamiento de Hunter.io es muy sencillo. Una vez entramos en su sitio web, debemos introducir en el cuadro de búsqueda, el nombre de la empresa que queremos averiguar si se ha filtrado alguna dirección de email. Una vez introducida debemos clicar a la derecha en la barra donde hemos introducido la dirección de email, el botón “Find email addresses” o cuando introducimos el nombre de la empresa puede aparecernos ya en el buscador.
+
+Una vez clicado si no encuentra nada, nos aparecerá el mensaje debajo del cuadro de búsqueda siguiente “This doesn’t look like a domain name”. En cambio, si encuentra algún resultado, nos aparecerá las direcciones de correo electrónico encontradas y al lado un icono verde si aún están activas o amarillas si lo desconoce. Además, también nos aparecerá en el lado derecho de cada dirección de correo electrónico encontrada, una flecha hacia abajo que nos indicara en que sitio web ha encontrado el correo electrónico de la empresa que buscamos y nos indicará si aún sigue activo o no el lugar donde lo encontró.
+
+Maltego
+Se trata de una potente herramienta que recopila información sobre un objetivo y nos la muestra en forma de grafo, permitiéndonos así analizar cómodamente las diferentes relaciones.
+
+Muy interesante cuando ponemos de objetivo a una empresa, persona o sitio web en fases iniciales del reconocimiento, ya que nos devolverá gran cantidad de información cruzada, y nos servirá para hacer múltiples enumeraciones en vectores por los que podremos seguir investigando.
+
+Spiderfoot
+Spiderfoot es una herramienta de reconocimiento que consulta automáticamente 100 fuentes de datos públicas y así poder recopilar dominios, nombres, correos, direcciones, etc...
+
+TheHarvester
+Una interesante herramienta por linea de comandos que recolecta información pública en la web(emails, subdominios,nombres, URLs,…). Esta recolección de información la puede hacer de 2 maneras: Pasiva y activa.
+
+Con la recolección pasiva, no interactúa en ningún momento con el objetivo y obtiene toda la información a través de los diferentes motores de búsqueda integrados en la herramienta.
+
+Por su parte la recolección activa, interactúa con el objetivo haciéndole Brute force al DNS o quitando screenshots de los subdominios encontrados.
+
+Recon-ng
+Framework con varios módulos (estilo Metasploit) que nos servirá para recolectar información de manera automatizada sobre un objetivo buscando en diferentes motores.
+
+Su interfaz es a través de linea de comandos y está organizada de una manera que la hace muy amigable. A través de ella podremos interactuar con una BD, hacer peticiones HTTP, gestionar API keys, etc
+
+Crt.sh
+Es una herramienta que nos permite obtener subdominios en base al certificado de transparencia. Su funcionamiento es muy sencillo, ya que bastará con poner el objetivo en el buscador y a los pocos segundos nos mostrará todos los subdominios encontrados en base al certificado de transparencia.
+
+El certificado de transparencia es un log que contiene todos los certificados SSL/TLS que una CA emitió, con el fin de identificar fácilmente certificados erróneos o maliciosos.
+
+Más información sobre el certificado de transparencia aquí
+
+Creepy
+Se trata de una herramienta de geolocalización. Recopila información relacionada con posibles ubicaciones a través de diferentes fuentes online. Permite extraer información de cuentas Twitter,Flicklr, Facebook, etc… Posteriormente representa esta información en un mapa y es posible exportarla a formatos CSV o KML para su posterior utilización
+
+DnsDumpster
+Una interesante herramienta que a través de su buscador nos brinda gran cantidad de información sobre un dominio. Toda la información la recopila consultando en diferentes motores de búsqueda y sin realizar fuerza bruta contra el dominio objetivo. Los datos se obtienen a través de consultas en plataformas como Alexa Top 1 Million, motores de búsqueda (Google, Bing, etc), Common Crawl, Certificate Transparency, Max Mind, Team Cymru, Shodan y scans.io.
+
+Su uso es muy sencillo, ya que basta con poner el objetivo en el buscador y esperar unos segundos. Eso sí, después habrá que tomar un tiempo analizando toda la información que obtenemos.
+
+Spyse
+Un motor de búsqueda para pentesters. Podemos buscar a partir de dominios, Ip, certificados, tecnologías etc… y en pocos segundos nos devuelve información muy detallada sobre nuestro objetivo en cuestión: Subdominios, certificados, tecnologías, CVEs, etc… Además, tiene una opción de búsqueda avanzada por si queremos afinar nuestra búsqueda. Sin duda, una herramienta muy sorprendente por el amplio abanico de posibilidades que ofrece, y en el pequeño intervalo de tiempo que es capaz de realizarlo.
+
+En este vídeo, Alan Levy nos muestra una interesante review sobre spyse
+
+Metagoofil
+Herramienta por linea de comandos que nos permite extraer metadatos de archivos públicos con diferentes extensiones pertenecientes a nuestro objetivo. En los metadatos podremos encontrar gran cantidad de información que nos servirá para avanzar en la investigación. Como sabemos, en los metadatos se alberga una serie de información relativa al fichero en cuestión: nombre autor, fechas creación y edición, coordenadas, versiones de software, etc …
+
+En este artículo publicado en Un Informático En El Lado Del Mal, podemos ver algunos casos en los que los metadatos fueron protagonistas.
+
+FOCA
+Una herramienta bastante reconocida en el mundo de la ciberseguridad. Foca utiliza Google, Bing y DuckDuckGo para encontrar diferentes archivos ofimáticos relacionados con un dominio. Posteriormente a estos archivos les hace un análisis de metadatos y nos terminará devolviendo organizadamente toda la información obtenida.
+
+Muy recomendable echar un vistazo a «Como analizar documentos con Foca en diez pasos» para entender bien el funcionamiento de esta popular herramienta.
+
+Fuentes:
+
+https://www.redeszone.net/tutoriales/seguridad/buscadores-internet-hackers/
+
+https://derechodelared.com/herramientas-osint-recopilatorio/
