@@ -1,0 +1,5 @@
+Análisis de PCI DSS v4.0 Parte VI: Requerimientos 10 y 11
+
+osint.sh
+
+https://www.pcihispano.com/analisis-de-pci-dss-v4-0-parte-vi-requerimientos-10-y-11/

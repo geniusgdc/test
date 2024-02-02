@@ -1,0 +1,20 @@
+IBM AS/400: Checklist estado de Salud del ISerie - AS/400
+
+Checklist
+
+    Tareas de Comprobación               Comandos
+
+1.- Comprobar el estado de los discos (Trabajar con el estado de disco -> wrkdsksts (Pulsando la Tecla F11) -> Más información del estado de Protección del sistema.
+2.- Comprobar el estado del sistema (Trabajo con estado del sistema)  -> wrksyssts (Pulsando la Tecla F10) -> Más información de errores BD o No BD.
+3.- Trabajar con Problemas, indica problemas sin resolver o fallo de software o hardware -> wrkprg  
+4.- Verificar errores -> strsst Herramientas de servicio con el usuario QSECOFR opciones 1, 7, 6. 
+
+
+
+
+
+
+
+
+
+
