@@ -1,0 +1,37 @@
+Conjunto de Actividades
+
+Conectividad del Equipo (ciberSeguridad - Redes-Interconectividad) 
+
+Historia de usuario
+HU - 001 - DEPÓSITO EN LÍNEA 
+Automatización y monitoreo
+1.- Actividad Ingreso de efectivo: 
+	* Validar y Certificar los insumos de operaciones a través de la emisión de reportes (Digitales o Impresos), la correcta trazabilidad de las operaciones efectuadas. 
+	* Traspado al cajetin de resguardo o Cassette de Deposito.
+	* Validar la emisión y recepción de las operaciones, lado de Banesco (Deposito Bancario - Cuenta de Verde Cliente).
+2.- Validar y Certificar el cumplimiento de la siguiente actividad:
+	* Datos de los usuarios autorizados para realizar las operaciones en el equipo.
+	* Usuario y contraseña, cumpliendo con el estandar de seguridad de contraseñas.
+Al efectuar un depósito y solicitar la autenticación del usuario, el sistema debe saber predeterminadamente el número de cuenta a quién realizará el depósito, ya sea que lo tome a través de desarrollo interno o se considere desde la pantalla del usuario, en este último caso el mismo debe ser un campo no editable.
+3.- Validar y Certificar el procesamiento de la operación:
+	* Fecha / Hora de la operación.
+	* Desglose de la operación: Usuario, Denominación de billete, desglose del efectivo, valor y monto total.
+	* Seriales de billetes.
+	* Referencia.
+4.- Validar y Certificar el inicio de la operación:
+	* Identificador de la cuenta verde a depositar.
+	* Visualización Predeterminada con campo NO editable.
+5.- Validar y certificar la consulta de evaluación en línea de la salud del equipo. (Reporte de fallas detectada, interrupciones del servicio y movimiento transaccional. Riesgo (Operación fallida No completada).
+
+CUMST Master Cliente
+ACMST Master de Cuenta
+TLMST Master de Cajero
+BANXXXXXXXX = usuario de AS400 (Gerente, Ejecutivo, Promotor, Taquilla).
+Lote568950 = usuario Taquilla (Pago Movil)
+Canal Agencia
+OSB = Modulo de Operaciones (Usuario de Supervisor Tipo "S" y Usuario de Taquilla Tipo "T" se encuentra en el TLMST)
+VBXXX = Codigo de transacción (Taquilla Cuenta Verde - Deposito VB2040, Retiro VB2029) 
+Audit = Maestro de Transacciones. (Taquilla y otros).
+Objetos y tablas
+
+Trazas de auditoria = Escribir en el ME_Trage (Tabla modeda extrajera).
