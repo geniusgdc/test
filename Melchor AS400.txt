@@ -1,0 +1,10 @@
+performances de as400
+
+Melchor
+https://www.ibm.com/docs/en/i/7.4?topic=services-asp-info-view
+
+Cómo recuperar el fuente de un programa o módulo CL en AS400
+
+http://www.teknodatips.com.ar/as400/183-como-recuperar-el-fuente-de-un-programa-o-modulo-cl-en-as400.html
+
+http://www.teknodatips.com.ar/blogs.html?tmpl=component&print=1&layout=default&catid=1&id=28:vuelco-de-spool-a-archivos-de-base-de-datos-en-forma-autom-usando-colas-de-datos&start=40#:~:text=Se%20puede%20recuperar%20un%20fuente,par%C3%A1metro%20ALWRTVSRC(*YES).
